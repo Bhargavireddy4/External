@@ -10,6 +10,8 @@ const Cart = ({ cart, removeFromCart }) => {
       ) : (
         cart.map((item, index) => (
           <div key={index} className="cart-item">
+            
+            <p><img src={item.image} style={{width:'10%'}}/></p>
             <p>{item.name} - ${item.price}</p>
             <button onClick={() => removeFromCart(index)}>Remove</button>
           </div>

@@ -1,6 +1,5 @@
 header {
-  background-color: #f8f7f8;
-  color: white;
+  
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -30,7 +29,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white;
+  color: rgb(138, 0, 80);
   text-decoration: none;
 }
 
