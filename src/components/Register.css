@@ -1,6 +1,8 @@
 .register-container {
     width: 50%;
     margin: auto;
+    margin-bottom: 100px;
+    margin-top:10px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;

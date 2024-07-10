@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav>
-        <h1>Shopify</h1>
+        <h1>Shopmore</h1>
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>

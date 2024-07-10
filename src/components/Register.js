@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Register.css';
 
-const Register = () => {
+const Register = ({onRegister}) => {
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -95,7 +95,7 @@ const Register = () => {
                 <label>Profile Picture:</label>
                 <input type="file" name="profilePicture" onChange={handleFileChange} />
                 
-                <button type="submit">Register</button>
+                <button type="submit" onClick={() => onRegister()}>Register</button>
             </form>
         </div>
     );
